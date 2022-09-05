@@ -59,6 +59,8 @@ body{
     height: 40px;
     border: 1px solid #ccc;
     padding: 0 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .header .header-nav .header-container .header-search .search-button {
@@ -71,6 +73,8 @@ body{
     align-items: center;
     align-content: center;
     color: #232323;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .header .header-nav .header-container .header-cart {
@@ -84,3 +88,4 @@ body{
     height: 40px;
     
 }
+
