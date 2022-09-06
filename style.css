@@ -89,3 +89,45 @@ body{
     
 }
 
+/* SECTION 1 */
+
+.section-1 {
+    width: 100%;
+    height: auto;
+    background: url(https://m.media-amazon.com/images/I/61j27qFUjPL._SX3000_.jpg);
+    background-size: cover;
+    display: flex;
+
+}
+
+.section-1 .section-1-container {
+    margin: 300px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section-1 .section-1-container .section-1-column {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+.section-1 .section-1-container .section-1-column img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.section-1 .section-1-container .section-1-column p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007185;
+}
+.section-1 .section-1-container .section-1-column button {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    background-color: var(--amazon-manor-color);
+    padding: 8px;
+    border-radius: 8px;
+}
