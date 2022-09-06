@@ -83,3 +83,7 @@
     color: #ffa41c;
     padding: 8px;
 }
+
+.product-detail  .product-container .product-detail-body .product-about ul {
+    padding-left: 40px;
+}
